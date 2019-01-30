@@ -1,0 +1,158 @@
+body{
+    margin:0;
+    background-color: white;
+}
+.navbar{
+    background-color:palevioletred;
+}
+.navbar-toggler{
+    color: black;
+}
+.navbar-brand{
+    /* width:40%; */
+}
+
+a{
+    text-decoration:none;
+    color: black; 
+}
+ul a:hover{
+    
+    color: aqua;
+}
+ul{
+    display:flex;
+     justify-content: space-around;    
+    flex-grow: 1;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    margin-top: 25px;
+    font-size:50px;
+    
+}
+li{
+    /* justify-content: space-between; */
+    list-style: none;
+}
+.jumbotron {
+    background-color:whitesmoke;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+
+    
+
+.container p{
+    background-color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 35px;
+    width:100%;
+
+
+}
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container-fluid p{
+    padding:0px !important;
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 0px !important;
+    font-size: 25px;
+    top:0;
+    background-color:whitesmoke;
+    
+
+}
+.flex-sm-fill{
+    width:33%;
+
+}
+
+.p-2 {
+    background-color: white;
+    justify-content: space-between;
+    padding-left:50px;
+}
+
+.click{
+    font-family:'Righteous' , 'cursive';
+    font-size: 45px;
+    text-align: left;
+    
+}
+.con{
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    padding-top: 0px;
+    
+
+}
+.click a{
+    text-decoration: none;
+    color: palevioletred;
+    text-shadow: 5px 10px 10px black;
+
+}
+.click a:hover{
+    color:yellowgreen;
+}
+
+.d-flex{
+    margin-top:0px !important;
+}
+.offers{
+    
+    height:400px;
+    width:100%;
+    bottom:20px !important;
+    /* margin:0px 0px 0px 0px; */
+    background-color: black;
+}
+.carol{
+    margin-top:20px !important;
+}
+.row{
+    flex-wrap: nowrap;
+    margin:0px !important;
+}
+
+
+.col-sm-3{
+    /* width:20%; */
+    /* flex-grow:1; */
+    
+    background-color:black;
+    font-size: 35px;
+
+    color:whitesmoke;
+    text-shadow: 5px 10px 10px purple;
+    font-family: 'Amatic SC', cursive;
+    }
+
+.col-sm-9{
+    /* padding-left: 70px; */
+    padding-right: 0px;
+    margin:0px !important;
+}
+footer{
+    /* display:flex; */
+    height:100px;
+    background-color:beige;
+    margin-top:20px !important;
+    padding-top:30px;
+}
+.icon{
+    /* margin-top: 20px; */
+    font-size: 40px;
+    text-align:center;
+    letter-spacing: 20px;
+
+}
+
+.con2{
+    font-family: 'Shadows Into Light', cursive;
+    background-color:beige!important; 
+    font-size: 40px !important;
+}
