@@ -12,7 +12,7 @@ body{
     /* width:40%; */
 }
 
-a{
+.nav-link{
     text-decoration:none;
     color: black; 
 }
